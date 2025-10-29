@@ -173,10 +173,11 @@ const reduce = counter();
 reduce();
 reduce();
 ```
--1 and -1
+-1 
+-2
 
-not so sure about this one.
-idk what returning a function will do
-but it seem to me count got reset to 0 each time.
-
-
+so first time you run it will be -1
+second time you run will be -2
+it will close the count variable.
+so counter() itself only runs once but the function inside does run.
+so it does execute de count -- en logs the variable 2 times.
